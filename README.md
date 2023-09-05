@@ -38,9 +38,11 @@ If the output is 1, then the led glows.
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+```
 Developed by: Thenmozhi p
 RegisterNumber:  212221230116
 */
+
 1. Program to design a half adder:
 
 module ex3(a,b,sum,carry);
@@ -58,7 +60,7 @@ output sum,carry;
 assign sum=a^b^cin;
 assign carry=(a&b)|((a^b)&cin);
 endmodule
-
+````
 Truthtable:
 half adder:
 
@@ -70,6 +72,7 @@ full adder:
 
 
 RTL realization
+
 half adder:
 
 ![image](https://github.com/Thenmozhi-Palanisamy/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/95198708/17b7b349-8cf3-4da8-91e7-6650fd7e733e)
@@ -79,11 +82,12 @@ full adder:
 ![image](https://github.com/Thenmozhi-Palanisamy/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/95198708/884932e9-6396-4dc5-ad8b-e1d0ef690b61)
 
 Output waveform:
-half adder:
+
+half adder
 
 ![image](https://github.com/Thenmozhi-Palanisamy/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/95198708/a204ccf6-66f1-43d4-ae24-b980509a1acc)
 
-full adder:
+full adder
 
 ![image](https://github.com/Thenmozhi-Palanisamy/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/95198708/b5c9748a-da88-428a-9fda-90b04a98d9d0)
 
